@@ -1,0 +1,1205 @@
+<html>
+<head>
+<title>D:\uploadedFiles\10824ad67488776336bcd7b8f34dfe-d434b3f0439584e\p1hd6vvj44e0et031egp2vo94p4.pdf</title>
+<style type="text/css">
+<!--
+body { font-family: Arial; font-size: 25.7px }
+.pos { position: absolute; z-index: 0; left: 0px; top: 0px }
+-->
+</style>
+</head>
+<body>
+<nobr><nowrap>
+<div class="pos" id="_0:0" style="top:0">
+<img name="_1170:828" src="page_001.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_136:120" style="top:120;left:136">
+<span id="_27.2" style=" font-family:Arial; font-size:27.2px; color:#4371c4">
+Enhancing a Vehicle Routing Problem Solver </span>
+</div>
+<div class="pos" id="_111:157" style="top:157;left:111">
+<span id="_27.2" style=" font-family:Arial; font-size:27.2px; color:#4371c4">
+through Graph Neural Networks in Neighborhood </span>
+</div>
+<div class="pos" id="_356:193" style="top:193;left:356">
+<span id="_27.2" style=" font-family:Arial; font-size:27.2px; color:#4371c4">
+Selection</span>
+</div>
+<div class="pos" id="_100:247" style="top:247;left:100">
+<span id="_27.2" style=" font-family:Arial; font-size:27.2px; color:#000000">
+Team Members: </span>
+</div>
+<div class="pos" id="_110:310" style="top:310;left:110">
+<span id="_19.0" style=" font-family:Arial; font-size:19.0px; color:#000000">
+Leo Lorence G</span>
+</div>
+<div class="pos" id="_474:310" style="top:310;left:474">
+<span id="_19.0" style=" font-family:Arial; font-size:19.0px; color:#000000">
+19NA3AI29</span>
+</div>
+<div class="pos" id="_110:374" style="top:374;left:110">
+<span id="_19.0" style=" font-family:Arial; font-size:19.0px; color:#000000">
+Ajay Ram Meena</span>
+</div>
+<div class="pos" id="_474:374" style="top:374;left:474">
+<span id="_19.0" style=" font-family:Arial; font-size:19.0px; color:#000000">
+19IE3AI18</span>
+</div>
+<div class="pos" id="_110:418" style="top:418;left:110">
+<span id="_19.0" style=" font-family:Arial; font-size:19.0px; color:#000000">
+Muhammed Haneen K P</span>
+</div>
+<div class="pos" id="_474:418" style="top:418;left:474">
+<span id="_19.0" style=" font-family:Arial; font-size:19.0px; color:#000000">
+19EE3AI17</span>
+</div>
+<div class="pos" id="_125:583" style="top:583;left:125">
+<span id="_20.4" style="font-weight:bold; font-family:Arial; font-size:20.4px; color:#000000">
+1. Introduction:</span>
+</div>
+<div class="pos" id="_100:624" style="top:624;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+The vehicle routing problem (VRP) is a combinatorial optimization and integer </span>
+</div>
+<div class="pos" id="_100:652" style="top:652;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+programming problem that asks, "What is the optimal set of routes for a fleet of </span>
+</div>
+<div class="pos" id="_100:679" style="top:679;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#4371c4">
+vehicles to traverse to deliver to a given set of customers?</span>
+</div>
+<div class="pos" id="_100:724" style="top:724;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+The Vehicle Routing Problem (VRP) addresses the efficient delivery operations of a </span>
+</div>
+<div class="pos" id="_100:751" style="top:751;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#4371c4">
+company with multiple vehicles and drivers servicing customers across a road </span>
+</div>
+<div class="pos" id="_100:779" style="top:779;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#4371c4">
+network. It aims to determine optimal routes for each vehicle, minimizing global </span>
+</div>
+<div class="pos" id="_100:807" style="top:807;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+transportation costs while satisfying customer demands and operational constraints. </span>
+</div>
+<div class="pos" id="_100:834" style="top:834;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+The road network is represented as a graph, and the objective functions vary, including </span>
+</div>
+<div class="pos" id="_100:862" style="top:862;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+minimizing costs, vehicles, travel time variation, penalties, and maximizing profit.</span>
+</div>
+<div class="pos" id="_100:907" style="top:907;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+The Vehicle Routing Problem (VRP) is widely acknowledged as an integer programming </span>
+</div>
+<div class="pos" id="_100:934" style="top:934;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#4371c4">
+problem and is classified as an NP Hard problem, meaning it is difficult to solve in </span>
+</div>
+<div class="pos" id="_100:962" style="top:962;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#4371c4">
+polynomial time. This categorization indicates that the computational complexity </span>
+</div>
+<div class="pos" id="_99:990" style="top:990;left:99">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+increases exponentially as the problem size increases. To address this difficulty, there is </span>
+</div>
+<div class="pos" id="_99:1017" style="top:1017;left:99">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+a widespread requirement for method yet fairly precise approximate solutions that are </span>
+</div>
+<div class="pos" id="_99:1045" style="top:1045;left:99">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+suitable for practical applications</span>
+</div>
+<div class="pos" id="_0:0" style="top:1170">
+<img name="_1170:828" src="page_002.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_125:1272" style="top:1272;left:125">
+<span id="_20.1" style="font-weight:bold; font-family:Arial; font-size:20.1px; color:#000000">
+2. How interesting and recent is the topic?</span>
+</div>
+<div class="pos" id="_100:1313" style="top:1313;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+Since the problem addresses a real word problem, making use of graph theory and </span>
+</div>
+<div class="pos" id="_100:1341" style="top:1341;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+graph neural networks makes it more interesting. Also, the problem is NP hard, which </span>
+</div>
+<div class="pos" id="_100:1368" style="top:1368;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+even makes it more interesting.</span>
+</div>
+<div class="pos" id="_100:1501" style="top:1501;left:100">
+<span id="_15.6" style="font-weight:bold; font-family:Arial; font-size:15.6px; color:#000000">
+2.1 Real-World Relevance:</span>
+</div>
+<div class="pos" id="_100:1546" style="top:1546;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+VRP effectively tackles the real-world obstacles encountered by delivery firms and </span>
+</div>
+<div class="pos" id="_100:1574" style="top:1574;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+logistics operations, rendering it highly important in a society that is increasingly </span>
+</div>
+<div class="pos" id="_100:1601" style="top:1601;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+dependent on the efficient transportation of products and services.</span>
+</div>
+<div class="pos" id="_100:1654" style="top:1654;left:100">
+<span id="_15.6" style="font-weight:bold; font-family:Arial; font-size:15.6px; color:#000000">
+2.2. Complexity and NP-Hard Nature:</span>
+</div>
+<div class="pos" id="_100:1698" style="top:1698;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+The Vehicle Routing Issue (VRP) is categorized as an NP-Hard issue, meaning that as </span>
+</div>
+<div class="pos" id="_100:1726" style="top:1726;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+the size of the problem rises, it becomes increasingly difficult to identify the best </span>
+</div>
+<div class="pos" id="_100:1754" style="top:1754;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+possible solutions using computer methods. Given the complexities involved, it is </span>
+</div>
+<div class="pos" id="_100:1781" style="top:1781;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+essential to investigate novel algorithms and optimization strategies.</span>
+</div>
+<div class="pos" id="_100:1834" style="top:1834;left:100">
+<span id="_15.1" style="font-weight:bold; font-family:Arial; font-size:15.1px; color:#000000">
+2.3 Diverse Applications:</span>
+</div>
+<div class="pos" id="_100:1887" style="top:1887;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+The problem finds applications in various industries beyond traditional logistics, </span>
+</div>
+<div class="pos" id="_100:1915" style="top:1915;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+including waste collection, school bus routing, and even in fields like healthcare for </span>
+</div>
+<div class="pos" id="_100:1942" style="top:1942;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+optimized patient care routes.</span>
+</div>
+<div class="pos" id="_100:1995" style="top:1995;left:100">
+<span id="_15.7" style="font-weight:bold; font-family:Arial; font-size:15.7px; color:#000000">
+2.4 Graph Neural Networks (GNNs)</span>
+</div>
+<div class="pos" id="_100:2039" style="top:2039;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+The incorporation of graph neural networks (GNNs) brings a modern and promising </span>
+</div>
+<div class="pos" id="_100:2067" style="top:2067;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+dimension to solving the Vehicle Routing Problem (VRP). Graph neural networks </span>
+</div>
+<div class="pos" id="_100:2095" style="top:2095;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+(GNNs) take advantage of the arrangement of the road network, enabling the </span>
+</div>
+<div class="pos" id="_100:2122" style="top:2122;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+development of more advanced and situation-aware solutions.</span>
+</div>
+<div class="pos" id="_100:2167" style="top:2167;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#4371c4">
+The utilization of graphs to represent sub-problems of VRP and the application of GNNs </span>
+</div>
+<div class="pos" id="_100:2194" style="top:2194;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#4371c4">
+to optimize these sub-problems introduces a level of complexity. This not only </span>
+</div>
+<div class="pos" id="_0:0" style="top:2340">
+<img name="_1170:828" src="page_003.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_100:2439" style="top:2439;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+demonstrates the flexibility of graph-based models but also emphasizes a new </span>
+</div>
+<div class="pos" id="_100:2466" style="top:2466;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+approach for addressing the complexities of VRP.</span>
+</div>
+<div class="pos" id="_125:2528" style="top:2528;left:125">
+<span id="_19.7" style="font-weight:bold; font-family:Arial; font-size:19.7px; color:#000000">
+3. Understanding the problem</span>
+</div>
+<div class="pos" id="_100:2570" style="top:2570;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+Before understanding the problem, let&#146;s understand the terminology we are going to </span>
+</div>
+<div class="pos" id="_100:2598" style="top:2598;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+use further in this blog:</span>
+</div>
+<div class="pos" id="_125:2620" style="top:2620;left:125">
+<span id="_19.0" style=" font-family:Times New Roman; font-size:19.0px; color:#000000">
+&#160;<span id="_15.7" style="font-weight:bold; font-family:Arial; font-size:15.7px"> "Shipment"</span><span id="_15.7" style=" font-family:Arial; font-size:15.7px"> is defined by the place of delivery and the particular specifications </span></span>
+</div>
+<div class="pos" id="_150:2654" style="top:2654;left:150">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+that a vehicle needs to meet. Extensions could include things like more pickup </span>
+</div>
+<div class="pos" id="_150:2681" style="top:2681;left:150">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+locations, time windows, and other pertinent information.</span>
+</div>
+<div class="pos" id="_125:2703" style="top:2703;left:125">
+<span id="_19.0" style=" font-family:Times New Roman; font-size:19.0px; color:#000000">
+&#160;<span id="_15.7" style="font-weight:bold; font-family:Arial; font-size:15.7px"> "Route"</span><span id="_15.7" style=" font-family:Arial; font-size:15.7px"> is an orderly flow of shipments that starts and ends at the depot. </span></span>
+</div>
+<div class="pos" id="_150:2737" style="top:2737;left:150">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+Notably, a route could pass through the depot more than once, which makes it </span>
+</div>
+<div class="pos" id="_150:2764" style="top:2764;left:150">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+easier to fill-up and distribute fresh cargo.</span>
+</div>
+<div class="pos" id="_125:2786" style="top:2786;left:125">
+<span id="_19.0" style=" font-family:Times New Roman; font-size:19.0px; color:#000000">
+&#160;<span id="_15.7" style="font-weight:bold; font-family:Arial; font-size:15.7px"> &#147;Trip</span><span id="_15.7" style=" font-family:Arial; font-size:15.7px"> &#148; A segment of the route that starts and ends at a depot without requiring a </span></span>
+</div>
+<div class="pos" id="_150:2820" style="top:2820;left:150">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+stop at the depot in between is referred to as a "trip."</span>
+</div>
+<div class="pos" id="_125:2841" style="top:2841;left:125">
+<span id="_19.0" style=" font-family:Times New Roman; font-size:19.0px; color:#000000">
+&#160;<span id="_15.7" style=" font-family:Arial; font-size:15.7px"> A vehicle's "</span><span id="_15.7" style="font-weight:bold; font-family:Arial; font-size:15.7px"> capacity</span><span id="_15.7" style=" font-family:Arial; font-size:15.7px"> " refers to its transport capacity, or the most weight it is </span></span>
+</div>
+<div class="pos" id="_150:2875" style="top:2875;left:150">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+able to support.</span>
+</div>
+<div class="pos" id="_125:2897" style="top:2897;left:125">
+<span id="_19.0" style=" font-family:Times New Roman; font-size:19.0px; color:#000000">
+&#160;<span id="_15.7" style="font-weight:bold; font-family:Arial; font-size:15.7px"> Time windows: </span><span id="_15.7" style=" font-family:Arial; font-size:15.7px"> An enhancement to the previously established VRP, "</span><span id="_15.7" style="font-weight:bold; font-family:Arial; font-size:15.7px"> time </span></span>
+</div>
+<div class="pos" id="_150:2931" style="top:2931;left:150">
+<span id="_15.7" style="font-weight:bold; font-family:Arial; font-size:15.7px; color:#000000">
+windows,<span style="font-weight:normal"> " adds new characteristics to shipments. By defining two time intervals </span></span>
+</div>
+<div class="pos" id="_150:2958" style="top:2958;left:150">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+during which deliveries must take place, they improve the accuracy of the </span>
+</div>
+<div class="pos" id="_150:2986" style="top:2986;left:150">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+logistical planning procedure.</span>
+</div>
+<div class="pos" id="_100:3047" style="top:3047;left:100">
+<span id="_18.6" style="font-weight:bold; font-family:Arial; font-size:18.6px; color:#000000">
+ 3.1 <span id="_14.9" style=" font-size:14.9px"> VRP as a Graph Problem:</span></span>
+</div>
+<div class="pos" id="_100:3093" style="top:3093;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+A vehicle routing problem can be represented as a graph problem<span id="_17.0" style=" font-size:17.0px"> .</span></span>
+</div>
+<div class="pos" id="_100:3131" style="top:3131;left:100">
+<span id="_14.6" style=" font-family:Arial; font-size:14.6px; color:#000000">
+                  </span>
+</div>
+<div class="pos" id="_200:3131" style="top:3131;left:200">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+Let <span style="font-weight:bold"> G = (V, E),</span> where V denotes locations for a vehicle's visits</span>
+</div>
+<div class="pos" id="_100:3169" style="top:3169;left:100">
+<span id="_14.6" style=" font-family:Arial; font-size:14.6px; color:#000000">
+                  </span>
+</div>
+<div class="pos" id="_200:3169" style="top:3169;left:200">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+V = 0 signifies the depot and</span>
+</div>
+<div class="pos" id="_100:3207" style="top:3207;left:100">
+<span id="_14.6" style=" font-family:Arial; font-size:14.6px; color:#000000">
+                  </span>
+</div>
+<div class="pos" id="_200:3207" style="top:3207;left:200">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+Vertices i = 1, ..., n represent customers with known demands</span>
+</div>
+<div class="pos" id="_100:3246" style="top:3246;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+Each edge between vertices i and j carries a non-negative cost,<span id="_23.4" style=" font-size:23.4px"> </span><span id="_23.4" style="font-weight:bold; font-size:23.4px"> c</span><span id="_14.9" style="font-weight:bold; font-size:14.9px"> ij</span> , symbolizing the </span>
+</div>
+<div class="pos" id="_99:3277" style="top:3277;left:99">
+<span id="_16.1" style=" font-family:Arial; font-size:16.1px; color:#000000">
+travel cost from vertex i to vertex j.</span>
+</div>
+<div class="pos" id="_99:3315" style="top:3315;left:99">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+The VRP involves determining a<span style="font-weight:bold"> set of k cycles</span> , each representing a vehicle route <span style="font-weight:bold"> (with </span></span>
+</div>
+<div class="pos" id="_100:3337" style="top:3337;left:100">
+<span id="_15.5" style="font-weight:bold; font-family:Arial; font-size:15.5px; color:#000000">
+one trip per route)<span style="font-weight:normal"> . Every circuit incurs a cost</span><span id="_23.2" style="font-weight:normal; font-size:23.2px"> </span><span id="_23.2" style=" font-size:23.2px"> c</span><span id="_14.8" style=" font-size:14.8px"> k</span><span style="font-weight:normal"> , defined as the sum of costs along its </span></span>
+</div>
+<div class="pos" id="_100:3368" style="top:3368;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+edges. The solution must satisfy the following conditions:</span>
+</div>
+<div class="pos" id="_0:0" style="top:3510">
+<img name="_1170:828" src="page_004.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_225:3603" style="top:3603;left:225">
+<span id="_19.4" style=" font-family:Times New Roman; font-size:19.4px; color:#9800ff">
+&#160;<span id="_16.1" style=" font-family:Arial; font-size:16.1px"> Every circuit must visit vertex 0, which is the depot.</span></span>
+</div>
+<div class="pos" id="_225:3631" style="top:3631;left:225">
+<span id="_19.4" style=" font-family:Times New Roman; font-size:19.4px; color:#9800ff">
+&#160;<span id="_16.1" style=" font-family:Arial; font-size:16.1px"> Each vertex j </span><span id="_17.7" style=" font-size:17.7px">  </span><span id="_16.1" style=" font-family:Arial; font-size:16.1px"> V \ 0 is visited precisely once by a circuit.</span></span>
+</div>
+<div class="pos" id="_100:3680" style="top:3680;left:100">
+<span id="_16.1" style=" font-family:Arial; font-size:16.1px; color:#000000">
+Any collection k meeting these conditions is a solution. An optimal solution is one </span>
+</div>
+<div class="pos" id="_100:3715" style="top:3715;left:100">
+<span id="_16.1" style=" font-family:Arial; font-size:16.1px; color:#000000">
+where the sum <span id="_17.7" style=" font-family:Times New Roman; font-size:17.7px"> </span><span id="_15.4" style="font-weight:bold; font-size:15.4px"> k</span> for all circuits is minimal. </span>
+</div>
+<div class="pos" id="_100:3806" style="top:3806;left:100">
+<span id="_15.2" style="font-weight:bold; font-family:Arial; font-size:15.2px; color:#292929">
+3.2 VRP with Capacity and Time Windows (VRPTW and CVRPTW)</span>
+</div>
+<div class="pos" id="_100:3843" style="top:3843;left:100">
+<span id="_15.7" style="font-weight:bold; font-family:Arial; font-size:15.7px; color:#000000">
+Capacity<span style="font-weight:normal"> is a vehicle&#146;s transport capacity. In graph theory, we represent this with </span></span>
+</div>
+<div class="pos" id="_100:3862" style="top:3862;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+below conditions</span>
+</div>
+<div class="pos" id="_150:3898" style="top:3898;left:150">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#9800ff">
+Let <span style="font-weight:bold"> d</span><span id="_10.4" style="font-weight:bold; font-size:10.4px"> j</span><span id="_10.4" style=" font-size:10.4px"> </span> : Each customer have a non-negative demand; then the sum of the </span>
+</div>
+<div class="pos" id="_149:3918" style="top:3918;left:149">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#9800ff">
+demands of vertices on the same circuit must not exceed the <span style="font-weight:bold"> vehicle capacity </span></span>
+</div>
+<div class="pos" id="_149:3937" style="top:3937;left:149">
+<span id="_16.3" style="font-weight:bold; font-family:Arial; font-size:16.3px; color:#9800ff">
+C.</span>
+</div>
+<div class="pos" id="_149:3976" style="top:3976;left:149">
+<span id="_14.3" style="font-weight:bold; font-family:Arial; font-size:14.3px; color:#9800ff">
+       <span id="_15.7" style="font-weight:normal; font-family:Times New Roman; font-size:15.7px"> </span><span id="_9.5" style=" font-size:9.5px"> k</span> : <span id="_15.7" style="font-weight:normal; font-family:Times New Roman; font-size:15.7px"> </span><span id="_9.5" style=" font-size:9.5px"> j</span> d<span id="_9.5" style=" font-size:9.5px"> j </span> &lt; C<span id="_9.5" style=" font-size:9.5px"> k</span> for j <span id="_15.7" style="font-weight:normal; font-family:Times New Roman; font-size:15.7px"> </span> <span style="font-style:italic"> cir</span><span id="_9.5" style=" font-size:9.5px"> k</span></span>
+</div>
+<div class="pos" id="_150:4020" style="top:4020;left:150">
+<span id="_15.7" style="font-weight:bold;font-style:italic; font-family:Arial; font-size:15.7px; color:#9800ff">
+Cir<span id="_10.5" style="font-style:normal; font-size:10.5px"><sub> k </sub></span><span style="font-weight:normal;font-style:normal"> is a member of the collection of sample circuits forming the solution k.</span></span>
+</div>
+<div class="pos" id="_100:4056" style="top:4056;left:100">
+<span id="_15.7" style="font-weight:bold; font-family:Arial; font-size:15.7px; color:#000000">
+Time window:  T<span style="font-weight:normal"> ime windows in the Vehicle Routing Problem are strict delivery </span></span>
+</div>
+<div class="pos" id="_100:4076" style="top:4076;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+timeframes. Though a vehicle can arrive early, waiting until the window starts suffers </span>
+</div>
+<div class="pos" id="_100:4095" style="top:4095;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+extra virtual cost, highlighting the importance of precise scheduling</span>
+</div>
+<div class="pos" id="_100:4131" style="top:4131;left:100">
+<span id="_14.9" style=" font-family:Arial; font-size:14.9px; color:#000000">
+3.3 <span style="font-weight:bold; color:#292929"> VRP as Business Problem</span><span id="_16.1" style=" font-size:16.1px"> </span></span>
+</div>
+<div class="pos" id="_100:4167" style="top:4167;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+ Adjustment have been made in values to reflect real world problem</span>
+</div>
+<div class="pos" id="_100:4205" style="top:4205;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+     <span id="_18.4" style="font-weight:bold; font-size:18.4px; color:#0000ff"> C</span><span id="_11.8" style="font-weight:bold; font-size:11.8px; color:#0000ff"> ij</span><span id="_18.4" style="font-weight:bold; font-size:18.4px; color:#0000ff"> :</span><span style=" color:#0000ff"> Traveling from vertex i to j is represented by the sum of business costs </span></span>
+</div>
+<div class="pos" id="_99:4230" style="top:4230;left:99">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#0000ff">
+(distance, travel time,  etc.) and penalties for violation of business rules (delayed </span>
+</div>
+<div class="pos" id="_99:4251" style="top:4251;left:99">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#0000ff">
+shipments, unmet requirements for the conditions of the shipment, waiting time, etc.)</span>
+</div>
+<div class="pos" id="_100:4289" style="top:4289;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+The reason we're changing the values is because the way we describe the problem </span>
+</div>
+<div class="pos" id="_100:4310" style="top:4310;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+matches the challenges we see in real-world logistics and transportation</span>
+</div>
+<div class="pos" id="_100:4348" style="top:4348;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+In logistics planning, the depot has different types of vehicles, each with specific </span>
+</div>
+<div class="pos" id="_100:4369" style="top:4369;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+abilities and limits. Vehicles can make multiple trips due to their limited numbers. Thus, </span>
+</div>
+<div class="pos" id="_100:4391" style="top:4391;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+a circuit <span id="_23.7" style="font-weight:bold; font-size:23.7px"> c</span><span id="_15.1" style="font-weight:bold; font-size:15.1px"> k</span><span id="_23.7" style="font-weight:bold; font-size:23.7px"> </span> from the graph theory definition of a VRP is<span style="font-weight:bold"> one trip of the vehicle</span> , and its </span>
+</div>
+<div class="pos" id="_100:4423" style="top:4423;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+route can consist of multiple trips.</span>
+</div>
+<div class="pos" id="_125:4460" style="top:4460;left:125">
+<span id="_16.3" style="font-weight:bold; font-family:Arial; font-size:16.3px; color:#000000">
+4.</span>
+</div>
+<div class="pos" id="_150:4460" style="top:4460;left:150">
+<span id="_14.8" style="font-weight:bold; font-family:Arial; font-size:14.8px; color:#000000">
+Logistic Planner</span>
+</div>
+<div class="pos" id="_100:4498" style="top:4498;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+The research's emphasis on integrating with the Logistics Planner and its optimizer tool </span>
+</div>
+<div class="pos" id="_100:4520" style="top:4520;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+from Dassault Syst&#232;mes is described in this line. Through iterative refinement of initial </span>
+</div>
+<div class="pos" id="_100:4541" style="top:4541;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+route assignments, the optimizer improves Vehicle Routing Problem (VRP) solutions. </span>
+</div>
+<div class="pos" id="_0:0" style="top:4680">
+<img name="_1170:828" src="page_005.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_100:4779" style="top:4779;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+Route assignments are generated and received during the process, creating a loop for </span>
+</div>
+<div class="pos" id="_100:4800" style="top:4800;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+ongoing development</span>
+</div>
+<div class="pos" id="_100:5223" style="top:5223;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+              Source: <span id="_10.4" style=" font-size:10.4px"> Graph Neural Networks in Neighbourhood Selection for a Vehicle Routing Problem solver</span></span>
+</div>
+<div class="pos" id="_100:5261" style="top:5261;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+4.1.  The optimizer receives the input of a VRP, consisting of a depot and shipments. </span>
+</div>
+<div class="pos" id="_100:5299" style="top:5299;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+4.2. The construction phase, which assigns all shipments to routes initially, is the first </span>
+</div>
+<div class="pos" id="_100:5327" style="top:5327;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+stage of processing the input. While a reasonable allocation can be tried straightaway, </span>
+</div>
+<div class="pos" id="_100:5355" style="top:5355;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+its optimality is not guaranteed. In this case, a virtual start-up fee is established and will </span>
+</div>
+<div class="pos" id="_100:5382" style="top:5382;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+be reduced in the following stages.  Virtual costs are defined by business costs and </span>
+</div>
+<div class="pos" id="_100:5410" style="top:5410;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+penalties for violating business rules. It consists of </span>
+</div>
+<div class="pos" id="_125:5454" style="top:5454;left:125">
+<span id="_16.3" style=" font-family:Arial; font-size:16.3px; color:#000000">
+1)</span>
+</div>
+<div class="pos" id="_150:5454" style="top:5454;left:150">
+<span id="_15.4" style="font-weight:bold; font-family:Arial; font-size:15.4px; color:#000000">
+Business cost per route:<span style="font-weight:normal"> the actual expenses involved in operating the route This </span></span>
+</div>
+<div class="pos" id="_150:5482" style="top:5482;left:150">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+comprises, but is not limited to: - The length of the trip, including driving, </span>
+</div>
+<div class="pos" id="_150:5510" style="top:5510;left:150">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+loading, and unloading times, as the driver's time is also compensated; - A </span>
+</div>
+<div class="pos" id="_150:5538" style="top:5538;left:150">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+function of the route's distance travelled, as fuel expenses are involved;</span>
+</div>
+<div class="pos" id="_125:5565" style="top:5565;left:125">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+2)<span style="font-weight:bold"> Breaking a business regulation (per route): </span> Overbooking, routes longer than a </span>
+</div>
+<div class="pos" id="_150:5593" style="top:5593;left:150">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+driver's shift, waiting time, and so forth</span>
+</div>
+<div class="pos" id="_125:5621" style="top:5621;left:125">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+3)  <span style="font-weight:bold"> Breach of business regulation (per shipment): </span><span style=" color:#9800ff"> unexpected shipping: a heavy </span></span>
+</div>
+<div class="pos" id="_150:5648" style="top:5648;left:150">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+fine is necessary because there are no commercial expenses associated with an </span>
+</div>
+<div class="pos" id="_150:5676" style="top:5676;left:150">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+unexpected shipment, therefore there is no reason to arrange one; - Delayed </span>
+</div>
+<div class="pos" id="_150:5704" style="top:5704;left:150">
+<span id="_16.3" style=" font-family:Arial; font-size:16.3px; color:#9800ff">
+shipment;</span>
+</div>
+<div class="pos" id="_0:0" style="top:5850">
+<img name="_1170:828" src="page_006.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_125:5949" style="top:5949;left:125">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+4)<span style="font-weight:bold"> Additional expenses</span> : Situational expenses could be included. CO2 emissions </span>
+</div>
+<div class="pos" id="_150:5976" style="top:5976;left:150">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+and electrical vehicle battery depletion are two examples.</span>
+</div>
+<div class="pos" id="_100:6021" style="top:6021;left:100">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+4.3. Next, the improvement phase starts. LP has an optimizer algorithm to minimize that </span>
+</div>
+<div class="pos" id="_100:6049" style="top:6049;left:100">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+virtual cost. A subproblem is the small number of shipments that are close to one </span>
+</div>
+<div class="pos" id="_100:6076" style="top:6076;left:100">
+<span id="_15.4" style=" font-family:Arial; font-size:15.4px; color:#000000">
+another. Its input is a neighborhood, which is made up of the following:</span>
+</div>
+<div class="pos" id="_175:6114" style="top:6114;left:175">
+<span id="_19.2" style=" font-family:Times New Roman; font-size:19.2px; color:#000000">
+&#160;<span id="_15.9" style=" font-family:Arial; font-size:15.9px">  A shipment chosen from the problems around which the subproblem is </span></span>
+</div>
+<div class="pos" id="_200:6148" style="top:6148;left:200">
+<span id="_15.9" style=" font-family:Arial; font-size:15.9px; color:#000000">
+to be developed is called an <span style="font-weight:bold; color:#0000ff"> anchor</span><span style=" color:#0000ff"> . A heuristic is used to produce </span></span>
+</div>
+<div class="pos" id="_200:6176" style="top:6176;left:200">
+<span id="_15.9" style=" font-family:Arial; font-size:15.9px; color:#000000">
+anchors, and it has a high probability that all shipments will eventually fall </span>
+</div>
+<div class="pos" id="_200:6204" style="top:6204;left:200">
+<span id="_15.9" style=" font-family:Arial; font-size:15.9px; color:#000000">
+within a neighborhood.</span>
+</div>
+<div class="pos" id="_175:6225" style="top:6225;left:175">
+<span id="_19.2" style=" font-family:Times New Roman; font-size:19.2px; color:#000000">
+&#160;<span id="_15.9" style=" font-family:Arial; font-size:15.9px"> The nearest shipments are chosen to create a neighborhood from an </span></span>
+</div>
+<div class="pos" id="_200:6259" style="top:6259;left:200">
+<span id="_15.9" style=" font-family:Arial; font-size:15.9px; color:#000000">
+anchor (notice that "close" here refers to both physical distance and </span>
+</div>
+<div class="pos" id="_200:6287" style="top:6287;left:200">
+<span id="_15.9" style=" font-family:Arial; font-size:15.9px; color:#000000">
+delivery time). A shipment's whole route is added when it enters a </span>
+</div>
+<div class="pos" id="_200:6315" style="top:6315;left:200">
+<span id="_15.9" style=" font-family:Arial; font-size:15.9px; color:#000000">
+neighborhood. A neighborhood is made up of one or more full pathways </span>
+</div>
+<div class="pos" id="_200:6342" style="top:6342;left:200">
+<span id="_15.3" style=" font-family:Arial; font-size:15.3px; color:#000000">
+as a result.</span>
+</div>
+<div class="pos" id="_100:6387" style="top:6387;left:100">
+<span id="_15.3" style=" font-family:Arial; font-size:15.3px; color:#000000">
+During optimization, a neighborhood, representing a subset of shipments, undergoes </span>
+</div>
+<div class="pos" id="_100:6414" style="top:6414;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+algorithmic refinement in isolation. The optimizer exclusively focuses on this localized </span>
+</div>
+<div class="pos" id="_100:6442" style="top:6442;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+context. The solution obtained for each sub-problem seamlessly integrates back into </span>
+</div>
+<div class="pos" id="_100:6470" style="top:6470;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+the overarching Vehicle Routing Problem, improving the global result by reassigning </span>
+</div>
+<div class="pos" id="_100:6497" style="top:6497;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+affected shipments and enhancing efficiency iteratively</span>
+</div>
+<div class="pos" id="_100:6542" style="top:6542;left:100">
+<span id="_15.0" style=" font-family:Arial; font-size:15.0px; color:#000000">
+4.4 <span style="font-weight:bold"> Negibhourhood selection</span></span>
+</div>
+<div class="pos" id="_100:6586" style="top:6586;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+The goal of the project is to improve the optimizer of Dassault Syst&#232;mes DELMIA by </span>
+</div>
+<div class="pos" id="_100:6614" style="top:6614;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#0000ff">
+concentrating on neighborhood selection instead of changing the resource- and time-</span>
+</div>
+<div class="pos" id="_100:6642" style="top:6642;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#0000ff">
+intensive optimizer. The procedure entails using LP to generate neighborhoods and </span>
+</div>
+<div class="pos" id="_100:6669" style="top:6669;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+assessing each one's potential for optimization prior to optimization. By comparing their </span>
+</div>
+<div class="pos" id="_100:6697" style="top:6697;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+capacities, the most promising neighborhood for optimization is to be selected. </span>
+</div>
+<div class="pos" id="_100:6725" style="top:6725;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+Because we do not use heuristic estimation, our method guarantees good selection </span>
+</div>
+<div class="pos" id="_100:6752" style="top:6752;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+based on differences seen between neighborhoods. The process entails creating a </span>
+</div>
+<div class="pos" id="_100:6780" style="top:6780;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+number of neighborhoods, evaluating their potential for optimization, and deciding </span>
+</div>
+<div class="pos" id="_100:6808" style="top:6808;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+which is the best for additional optimization within the parameters of the study.</span>
+</div>
+<div class="pos" id="_0:0" style="top:7020">
+<img name="_1170:828" src="page_007.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_100:7475" style="top:7475;left:100">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#000000">
+    Source: Graph Neural Networks in Neighbourhood Selection for a Vehicle Routing Problem solver</span>
+</div>
+<div class="pos" id="_100:7504" style="top:7504;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+a) Each time step starts with the current solution X. Circles represent shipment nodes, </span>
+</div>
+<div class="pos" id="_100:7532" style="top:7532;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+blue lines stand for the path a vehicle takes between two shipments, and the red star </span>
+</div>
+<div class="pos" id="_100:7560" style="top:7560;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+marks the depot.</span>
+</div>
+<div class="pos" id="_100:7604" style="top:7604;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+ b) We represent a route as a point (diamond) for simplicity. Note: All routes contain </span>
+</div>
+<div class="pos" id="_100:7632" style="top:7632;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+the depot (at least twice).</span>
+</div>
+<div class="pos" id="_100:7676" style="top:7676;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+ c) Selecting neighborhoods (which can vary in size and how much they overlap). </span>
+</div>
+<div class="pos" id="_100:7721" style="top:7721;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+d)  selecting a subproblem S (yellow). </span>
+</div>
+<div class="pos" id="_100:7765" style="top:7765;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+e) We feed S into the sub-optimizer to get a new sub-solution, X&#146;S. The red edges are </span>
+</div>
+<div class="pos" id="_100:7793" style="top:7793;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+updated by the sub-optimizer.</span>
+</div>
+<div class="pos" id="_100:7837" style="top:7837;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+ f) We update X to the new solution X0 with X&#146;S, then repeat (b)-(f). The solution </span>
+</div>
+<div class="pos" id="_100:7865" style="top:7865;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+achieved at f is the new (a)</span>
+</div>
+<div class="pos" id="_100:7913" style="top:7913;left:100">
+<span id="_18.8" style="font-weight:bold; font-family:Times New Roman; font-size:18.8px; color:#292929">
+5. Graph-representation</span>
+</div>
+<div class="pos" id="_100:7954" style="top:7954;left:100">
+<span id="_16.1" style=" font-family:Arial; font-size:16.1px; color:#292929">
+The process involves iteratively building a graph for Graph Neural Network (GNN) </span>
+</div>
+<div class="pos" id="_100:7975" style="top:7975;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#292929">
+application in neighborhood selection. Graph development occurs in phases, increasing </span>
+</div>
+<div class="pos" id="_100:7996" style="top:7996;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#292929">
+in complexity gradually to avoid unnecessary processing without proven model </span>
+</div>
+<div class="pos" id="_100:8017" style="top:8017;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#292929">
+improvement. Each phase is evaluated based on a simulated real-world problem, and </span>
+</div>
+<div class="pos" id="_100:8039" style="top:8039;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#292929">
+subsequent phases introduce expansions. If an expansion enhances performance, it is </span>
+</div>
+<div class="pos" id="_100:8060" style="top:8060;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#292929">
+retained; otherwise, it is discarded, with special consideration for critical expansions. </span>
+</div>
+<div class="pos" id="_0:0" style="top:8190">
+<img name="_1170:828" src="page_008.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_100:8289" style="top:8289;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#292929">
+The graph consists of these nodes type and edges</span>
+</div>
+<div class="pos" id="_110:8344" style="top:8344;left:110">
+<span id="_16.2" style=" font-family:Times New Roman; font-size:16.2px; color:#000000">
+ Shipment Nodes </span>
+</div>
+<div class="pos" id="_296:8344" style="top:8344;left:296">
+<span id="_16.2" style=" font-family:Times New Roman; font-size:16.2px; color:#000000">
+Deliveries vehicles need to make and the depot</span>
+</div>
+<div class="pos" id="_110:8407" style="top:8407;left:110">
+<span id="_16.2" style=" font-family:Times New Roman; font-size:16.2px; color:#000000">
+Trip Nodes</span>
+</div>
+<div class="pos" id="_296:8407" style="top:8407;left:296">
+<span id="_16.2" style=" font-family:Times New Roman; font-size:16.2px; color:#000000">
+Trips vehicles make from the depot and back to make deliveries</span>
+</div>
+<div class="pos" id="_110:8447" style="top:8447;left:110">
+<span id="_16.2" style=" font-family:Times New Roman; font-size:16.2px; color:#000000">
+Route Nodes</span>
+</div>
+<div class="pos" id="_296:8447" style="top:8447;left:296">
+<span id="_16.2" style=" font-family:Times New Roman; font-size:16.2px; color:#000000">
+Full routes (one or more trips) of vehicle throughout a day</span>
+</div>
+<div class="pos" id="_100:8519" style="top:8519;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+The graph will have these edges</span>
+</div>
+<div class="pos" id="_110:8569" style="top:8569;left:110">
+<span id="_15.0" style=" font-family:Arial; font-size:15.0px; color:#000000">
+Path Edges   </span>
+</div>
+<div class="pos" id="_276:8569" style="top:8569;left:276">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+The travel of a vehicle from one location to the next  (between Shipment </span>
+</div>
+<div class="pos" id="_276:8587" style="top:8587;left:276">
+<span id="_16.3" style=" font-family:Arial; font-size:16.3px; color:#000000">
+Nodes)</span>
+</div>
+<div class="pos" id="_110:8638" style="top:8638;left:110">
+<span id="_16.3" style=" font-family:Arial; font-size:16.3px; color:#000000">
+Shipment-Trip </span>
+</div>
+<div class="pos" id="_276:8638" style="top:8638;left:276">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+Connecting Shipment Nodes to the Trip Node representing the trip those </span>
+</div>
+<div class="pos" id="_110:8657" style="top:8657;left:110">
+<span id="_16.3" style=" font-family:Arial; font-size:16.3px; color:#000000">
+Edges</span>
+</div>
+<div class="pos" id="_276:8657" style="top:8657;left:276">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+shipments are part of</span>
+</div>
+<div class="pos" id="_110:8718" style="top:8718;left:110">
+<span id="_15.2" style=" font-family:Arial; font-size:15.2px; color:#000000">
+Trip Edges </span>
+</div>
+<div class="pos" id="_276:8718" style="top:8718;left:276">
+<span id="_16.0" style=" font-family:Arial; font-size:16.0px; color:#000000">
+Interconnectivity between Trip Nodes</span>
+</div>
+<div class="pos" id="_110:8778" style="top:8778;left:110">
+<span id="_16.0" style=" font-family:Arial; font-size:16.0px; color:#000000">
+Trip-on-Route </span>
+</div>
+<div class="pos" id="_276:8778" style="top:8778;left:276">
+<span id="_16.0" style=" font-family:Arial; font-size:16.0px; color:#000000">
+Connecting sequential Trip Nodes that are on the same route</span>
+</div>
+<div class="pos" id="_110:8796" style="top:8796;left:110">
+<span id="_16.0" style=" font-family:Arial; font-size:16.0px; color:#000000">
+Edges</span>
+</div>
+<div class="pos" id="_110:8847" style="top:8847;left:110">
+<span id="_16.0" style=" font-family:Arial; font-size:16.0px; color:#000000">
+Trip-Route Edges</span>
+</div>
+<div class="pos" id="_276:8847" style="top:8847;left:276">
+<span id="_16.0" style=" font-family:Arial; font-size:16.0px; color:#000000">
+Connecting Trip Nodes to the Route Node representing the route those </span>
+</div>
+<div class="pos" id="_276:8865" style="top:8865;left:276">
+<span id="_16.0" style=" font-family:Arial; font-size:16.0px; color:#000000">
+trips are part of</span>
+</div>
+<div class="pos" id="_110:8916" style="top:8916;left:110">
+<span id="_15.2" style=" font-family:Arial; font-size:15.2px; color:#000000">
+Route Edges</span>
+</div>
+<div class="pos" id="_276:8916" style="top:8916;left:276">
+<span id="_15.9" style=" font-family:Arial; font-size:15.9px; color:#000000">
+Interconnectivity between Route Nodes</span>
+</div>
+<div class="pos" id="_100:9188" style="top:9188;left:100">
+<span id="_19.1" style="font-weight:bold; font-family:Arial; font-size:19.1px; color:#000000">
+6. Guidelines for Implementation </span>
+</div>
+<div class="pos" id="_100:9215" style="top:9215;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+The flowchart below roughly shows how the implementation of GNN in the VRP solver </span>
+</div>
+<div class="pos" id="_100:9236" style="top:9236;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+for neighborhood selection works.</span>
+</div>
+<div class="pos" id="_0:0" style="top:9360">
+<img name="_1170:828" src="page_009.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_100:9920" style="top:9920;left:100">
+<span id="_15.1" style="font-weight:bold; font-family:Arial; font-size:15.1px; color:#000000">
+6.1  Implementation process</span>
+</div>
+<div class="pos" id="_100:9953" style="top:9953;left:100">
+<span id="_15.1" style=" font-family:Arial; font-size:15.1px; color:#000000">
+The process begins by loading the Vehicle Routing Problem (VRP) instance data. This </span>
+</div>
+<div class="pos" id="_100:9981" style="top:9981;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+data includes essential information such as the location of the depot, customer </span>
+</div>
+<div class="pos" id="_100:10009" style="top:10009;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+locations, and any constraints associated with the problem. This step serves as the </span>
+</div>
+<div class="pos" id="_100:10036" style="top:10036;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+foundational input for the process. Once the VRP instance data is loaded, the next stage </span>
+</div>
+<div class="pos" id="_100:10064" style="top:10064;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+involves constructing a graph representation of the problem. In this graph, nodes </span>
+</div>
+<div class="pos" id="_100:10092" style="top:10092;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+represent various locations, including the depot and customer sites, while edges signify </span>
+</div>
+<div class="pos" id="_100:10119" style="top:10119;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+the distances or costs associated with traveling between these locations.  Setting up </span>
+</div>
+<div class="pos" id="_100:10147" style="top:10147;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+and initializing the GNN model, including architecture and parameters, is also done </span>
+</div>
+<div class="pos" id="_100:10175" style="top:10175;left:100">
+<span id="_16.3" style=" font-family:Arial; font-size:16.3px; color:#000000">
+here.</span>
+</div>
+<div class="pos" id="_100:10208" style="top:10208;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+ Initial node embeddings are established in the next step. In the beginning, these </span>
+</div>
+<div class="pos" id="_100:10236" style="top:10236;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+embeddings turn the nodes' properties, like their location and what customers want, </span>
+</div>
+<div class="pos" id="_100:10263" style="top:10263;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+into vectors that the GNN can use. Graph nodes can share information with each other </span>
+</div>
+<div class="pos" id="_100:10291" style="top:10291;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+using GNN message-passing layers. This lets them update their embeddings by </span>
+</div>
+<div class="pos" id="_100:10319" style="top:10319;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+learning from neighboring nodes. This process helps the GNN understand the </span>
+</div>
+<div class="pos" id="_100:10347" style="top:10347;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+connections between locations and their associated costs.</span>
+</div>
+<div class="pos" id="_100:10380" style="top:10380;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+ Next is the neighborhood selection step. Here, the GNN utilizes its embeddings to </span>
+</div>
+<div class="pos" id="_100:10401" style="top:10401;left:100">
+<span id="_15.5" style=" font-family:Arial; font-size:15.5px; color:#000000">
+select the next customer node that a vehicle should visit. This selection is not arbitrary </span>
+</div>
+<div class="pos" id="_0:0" style="top:10530">
+<img name="_1170:828" src="page_010.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_100:10629" style="top:10629;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+but takes into account various constraints, such as the vehicle's capacity and time </span>
+</div>
+<div class="pos" id="_100:10650" style="top:10650;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+windows for customer visits. Following the neighborhood selection, the vehicle's route </span>
+</div>
+<div class="pos" id="_100:10671" style="top:10671;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+is updated based on the chosen customer node. This step also involves updating </span>
+</div>
+<div class="pos" id="_100:10692" style="top:10692;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+relevant information, such as the remaining vehicle capacity and other factors critical to </span>
+</div>
+<div class="pos" id="_100:10714" style="top:10714;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+the VRP solution. The process includes a termination check to determine whether all </span>
+</div>
+<div class="pos" id="_100:10735" style="top:10735;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+customers have been visited. If not, the optimization returns to the neighborhood </span>
+</div>
+<div class="pos" id="_100:10756" style="top:10756;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+selection step, and the process iterates until all customers are included in the solution.</span>
+</div>
+<div class="pos" id="_100:10799" style="top:10799;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+When the optimization process is done, the system checks the solution by figuring out </span>
+</div>
+<div class="pos" id="_100:10820" style="top:10820;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+the total cost of the Vehicle Routing Problem (VRP) solution. This is done by taking into </span>
+</div>
+<div class="pos" id="_100:10841" style="top:10841;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+account things like travel distance, time, and vehicle utilization. It then conducts a </span>
+</div>
+<div class="pos" id="_100:10862" style="top:10862;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+convergence check to determine if the Graph Neural Network (GNN) model has </span>
+</div>
+<div class="pos" id="_100:10884" style="top:10884;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+reached a stable and optimal solution. If not, it may return to the neighborhood </span>
+</div>
+<div class="pos" id="_100:10905" style="top:10905;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+selection step for further adjustments. Finally, the system generates the output solution, </span>
+</div>
+<div class="pos" id="_100:10926" style="top:10926;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+which consists of optimized vehicle routes tailored to the VRP instance's constraints </span>
+</div>
+<div class="pos" id="_100:10947" style="top:10947;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+and requirements.</span>
+</div>
+<div class="pos" id="_100:11015" style="top:11015;left:100">
+<span id="_15.1" style="font-weight:bold; font-family:Arial; font-size:15.1px; color:#000000">
+6.2  Things to note when implementing</span>
+</div>
+<div class="pos" id="_100:11048" style="top:11048;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+To use Graph Neural Networks (GNN) to solve the Vehicle Routing Problem (VRP), you </span>
+</div>
+<div class="pos" id="_100:11069" style="top:11069;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+need to take a complete approach that includes preprocessing the data, choosing the </span>
+</div>
+<div class="pos" id="_100:11091" style="top:11091;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+GNN model, tuning the hyperparameters, collecting data, and evaluating performance. </span>
+</div>
+<div class="pos" id="_100:11133" style="top:11133;left:100">
+<span id="_15.1" style="font-weight:bold; font-family:Arial; font-size:15.1px; color:#000000">
+Data Preprocessing for GNN-Based VRP Solver:</span>
+</div>
+<div class="pos" id="_100:11154" style="top:11154;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+Data preprocessing lays the foundation for GNN-driven VRP solvers. This crucial phase </span>
+</div>
+<div class="pos" id="_100:11175" style="top:11175;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+involves transforming raw VRP data into a suitable graph representation. A careful </span>
+</div>
+<div class="pos" id="_100:11197" style="top:11197;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+examination of the data structure is essential to understanding the interplay between </span>
+</div>
+<div class="pos" id="_100:11218" style="top:11218;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+locations, customer demands, and various constraints. Defining meaningful </span>
+</div>
+<div class="pos" id="_100:11239" style="top:11239;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+relationships between nodes and edges within the graph and accurately mapping </span>
+</div>
+<div class="pos" id="_100:11260" style="top:11260;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+customer data onto this representation is imperative. The success of GNN-based </span>
+</div>
+<div class="pos" id="_100:11282" style="top:11282;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+solutions depends on how accurate this graph is, and it is important to make sure that </span>
+</div>
+<div class="pos" id="_100:11303" style="top:11303;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+all the data and validation are correct before applying the model.</span>
+</div>
+<div class="pos" id="_100:11367" style="top:11367;left:100">
+<span id="_15.1" style="font-weight:bold; font-family:Arial; font-size:15.1px; color:#000000">
+GNN Model Selection for VRP:</span>
+</div>
+<div class="pos" id="_100:11388" style="top:11388;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+The choice of a GNN model is a key determinant of success in VRP optimization. Model </span>
+</div>
+<div class="pos" id="_100:11409" style="top:11409;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+selection should consider factors such as expressive power, scalability, and </span>
+</div>
+<div class="pos" id="_100:11430" style="top:11430;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+interpretability. The chosen GNN model needs to be able to work well with the unique </span>
+</div>
+<div class="pos" id="_100:11452" style="top:11452;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+features of each VRP instance so that it can understand the connections between </span>
+</div>
+<div class="pos" id="_100:11473" style="top:11473;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+nodes and edges. Additionally, the complexity of VRP instances plays a vital role in </span>
+</div>
+<div class="pos" id="_100:11494" style="top:11494;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+model selection, as it significantly impacts optimization objectives.</span>
+</div>
+<div class="pos" id="_100:11536" style="top:11536;left:100">
+<span id="_15.0" style="font-weight:bold; font-family:Arial; font-size:15.0px; color:#000000">
+Data Acquisition and Synthesis:</span>
+</div>
+<div class="pos" id="_100:11558" style="top:11558;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+Training a GNN model for VRP necessitates a comprehensive dataset with known </span>
+</div>
+<div class="pos" id="_100:11579" style="top:11579;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+optimal solutions. Real-world data acquisition can be challenging, necessitating the </span>
+</div>
+<div class="pos" id="_0:0" style="top:11700">
+<img name="_1170:828" src="page_011.jpg" height="1170" width="828" border="0" usemap="#Map"></div>
+<div class="pos" id="_100:11799" style="top:11799;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+generation of synthetic datasets or the use of publicly available ones. This approach </span>
+</div>
+<div class="pos" id="_100:11820" style="top:11820;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+ensures that the GNN model can learn and optimize VRP solutions, even when real-</span>
+</div>
+<div class="pos" id="_100:11841" style="top:11841;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+world data is scarce or unavailable.</span>
+</div>
+<div class="pos" id="_100:11884" style="top:11884;left:100">
+<span id="_15.6" style="font-weight:bold; font-family:Arial; font-size:15.6px; color:#000000">
+Hyperparameter Tuning for Optimal Performance:</span>
+</div>
+<div class="pos" id="_100:11905" style="top:11905;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+The fine-tuning of hyperparameters, such as the number of layers and learning rates, is </span>
+</div>
+<div class="pos" id="_100:11926" style="top:11926;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+a pivotal phase in the VRP optimization process. This iterative process has a significant </span>
+</div>
+<div class="pos" id="_100:11947" style="top:11947;left:100">
+<span id="_15.6" style=" font-family:Arial; font-size:15.6px; color:#000000">
+impact on the GNN model's performance and is essential to achieving optimal results.</span>
+</div>
+<div class="pos" id="_100:11990" style="top:11990;left:100">
+<span id="_15.1" style="font-weight:bold; font-family:Arial; font-size:15.1px; color:#000000">
+Convergence Criteria for Effective Solutions:</span>
+</div>
+<div class="pos" id="_100:12011" style="top:12011;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+Determining when a GNN-based solution has reached convergence is a complex task. </span>
+</div>
+<div class="pos" id="_100:12032" style="top:12032;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+Well-defined convergence criteria are essential to prevent the waste of computational </span>
+</div>
+<div class="pos" id="_100:12054" style="top:12054;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+resources on non-productive iterations. These criteria serve as a guide to navigate the </span>
+</div>
+<div class="pos" id="_100:12075" style="top:12075;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+iterative landscape of GNN-based solutions, ensuring efficiency and effectiveness in </span>
+</div>
+<div class="pos" id="_100:12096" style="top:12096;left:100">
+<span id="_15.7" style=" font-family:Arial; font-size:15.7px; color:#000000">
+solving complex problems like VRP.</span>
+</div>
+<div class="pos" id="_100:12139" style="top:12139;left:100">
+<span id="_15.1" style="font-weight:bold; font-family:Arial; font-size:15.1px; color:#000000">
+Performance Evaluation and Comparison:</span>
+</div>
+<div class="pos" id="_100:12160" style="top:12160;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+After implementing GNN-based neighborhood selection for VRP, performance </span>
+</div>
+<div class="pos" id="_100:12181" style="top:12181;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+evaluation becomes vital. Key factors such as solution quality, computation time, and </span>
+</div>
+<div class="pos" id="_100:12202" style="top:12202;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+scalability must be considered. Furthermore, comparing the GNN-based approach to </span>
+</div>
+<div class="pos" id="_100:12224" style="top:12224;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+conventional techniques like Large Neighborhood Search (LNS) is crucial. This </span>
+</div>
+<div class="pos" id="_100:12245" style="top:12245;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+comparison helps us figure out how useful and effective the GNN-based solution is and </span>
+</div>
+<div class="pos" id="_100:12266" style="top:12266;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+whether it has any benefits, such as better solution quality, shorter computation times, </span>
+</div>
+<div class="pos" id="_100:12287" style="top:12287;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+or better scalability when solving VRP instances.</span>
+</div>
+<div class="pos" id="_100:12330" style="top:12330;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+In conclusion, the application of GNNs in VRP solvers requires a well-rounded </span>
+</div>
+<div class="pos" id="_100:12351" style="top:12351;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+approach that covers multiple factors. These steps collectively contribute to the </span>
+</div>
+<div class="pos" id="_100:12372" style="top:12372;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+development of effective solutions for one of the most challenging problems in logistics </span>
+</div>
+<div class="pos" id="_100:12393" style="top:12393;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+and operations research. By carefully navigating these stages, we can harness the </span>
+</div>
+<div class="pos" id="_100:12415" style="top:12415;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+power of GNNs to address real-world VRP challenges and achieve superior routing and </span>
+</div>
+<div class="pos" id="_100:12436" style="top:12436;left:100">
+<span id="_15.8" style=" font-family:Arial; font-size:15.8px; color:#000000">
+logistics outcomes.</span>
+</div>
+</nowrap></nobr>
+</body>
+</html>
